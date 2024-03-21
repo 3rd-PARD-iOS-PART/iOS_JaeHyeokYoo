@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Hbb-O1-3xz">
+            <objects>
+                <viewController id="ZCE-de-zNO" customClass="ViewController" customModule="FirstFile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BHf-N6-OKC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:41" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArX-WR-jHr">
+                                <rect key="frame" x="60" y="30" width="31" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3jv-Ta-stX"/>
+                                    <constraint firstAttribute="width" constant="31" id="acT-6l-RP8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="wifi" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="88e-1w-FCU">
+                                <rect key="frame" x="285" y="32.333333333333329" width="31" height="16.666666666666671"/>
+                                <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Cfr-tH-nAM"/>
+                                    <constraint firstAttribute="width" constant="31" id="v4U-hl-qKa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="battery.100" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UJD-J8-cia">
+                                <rect key="frame" x="317" y="33.666666666666664" width="31" height="14.000000000000007"/>
+                                <color key="tintColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="5Rn-Jg-1Zk"/>
+                                    <constraint firstAttribute="height" constant="21" id="TIt-q6-NHv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="cellularbars" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0BG-LW-5qK">
+                                <rect key="frame" x="253" y="32" width="31" height="17.333333333333329"/>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="51X-Ai-xN5"/>
+                                    <constraint firstAttribute="height" constant="21" id="Jr2-vF-D8N"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVa-3C-gea">
+                                <rect key="frame" x="15" y="329" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="6o1-pH-Dfb"/>
+                                    <constraint firstAttribute="width" constant="80" id="O9q-Zd-0mb"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="AC" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edr-dm-uBX">
+                                <rect key="frame" x="110" y="329" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="eY4-Lg-zs0"/>
+                                    <constraint firstAttribute="width" constant="80" id="gYc-vh-Nac"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" subtitle="" imagePadding="0.0" cornerStyle="capsule">
+                                    <imageReference key="image" image="plus.forwardslash.minus" catalog="system" symbolScale="large" renderingMode="original" variableValue="0.0"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffQ-pZ-aP3">
+                                <rect key="frame" x="205" y="329" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="2xO-Rx-dP6"/>
+                                    <constraint firstAttribute="width" constant="80" id="gOZ-Hl-Hio"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemGray2Color"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="%">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI5-td-G6S">
+                                <rect key="frame" x="300" y="329" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="584-ee-5g9"/>
+                                    <constraint firstAttribute="height" constant="80" id="Srh-WV-BcY"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="÷" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="39"/>
+                                    <attributedString key="attributedSubtitle"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xna-y4-9C3">
+                                <rect key="frame" x="15" y="424" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="1T7-43-dlP"/>
+                                    <constraint firstAttribute="height" constant="80" id="O16-Hr-2ka"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="7" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USs-xd-Ur1">
+                                <rect key="frame" x="110" y="424" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="pnt-nZ-L4X"/>
+                                    <constraint firstAttribute="height" constant="80" id="wJW-qQ-iqa"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="8" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCa-Rg-fQx">
+                                <rect key="frame" x="205" y="424" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="RlV-D9-ngc"/>
+                                    <constraint firstAttribute="height" constant="80" id="snW-PH-UXp"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="9" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1w-cX-YEt">
+                                <rect key="frame" x="300" y="424" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="BaB-ni-RIH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="L86-UW-py2"/>
+                                    <constraint firstAttribute="width" constant="80" id="hJL-8M-MtO"/>
+                                    <constraint firstAttribute="height" constant="80" id="oOt-GO-2is"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="×">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="34" name="ArialRoundedMTBold"/>
+                                                <font key="NSOriginalFont" size="20" name="AppleColorEmoji"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZL-y1-eh5">
+                                <rect key="frame" x="15" y="519" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="46b-cq-nd4"/>
+                                    <constraint firstAttribute="width" constant="80" id="Iiq-gl-AhS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="SZx-qO-bFP"/>
+                                    <constraint firstAttribute="height" constant="80" id="X2e-Nu-S7E"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="4" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRh-th-KMA">
+                                <rect key="frame" x="110" y="519" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Ytq-xB-SN1"/>
+                                    <constraint firstAttribute="height" constant="80" id="nFx-tK-KUI"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="5" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkt-EQ-ZQx">
+                                <rect key="frame" x="205" y="519" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="hgB-m6-2jJ"/>
+                                    <constraint firstAttribute="width" constant="80" id="l5P-6w-uHi"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="6" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oy9-7a-4zg">
+                                <rect key="frame" x="300" y="519" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="L0R-FD-Wig"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Vdn-yj-i1L"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="dNZ-Zb-EeJ"/>
+                                    <constraint firstAttribute="width" constant="80" id="vbg-PR-Zdt"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="-" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slQ-BZ-ZbD">
+                                <rect key="frame" x="15" y="614" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="bgl-XA-Ei6"/>
+                                    <constraint firstAttribute="height" constant="80" id="pZ8-Mt-Uon"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="1" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhs-JV-u7z">
+                                <rect key="frame" x="110" y="614" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QFa-zb-ykx"/>
+                                    <constraint firstAttribute="width" constant="80" id="y3v-WC-sHX"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="2" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeI-cy-Cvm">
+                                <rect key="frame" x="205" y="614" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="5Zq-Cf-H4A"/>
+                                    <constraint firstAttribute="height" constant="80" id="Dur-Zh-AnB"/>
+                                    <constraint firstAttribute="width" constant="80" id="Gdy-mm-X09"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Hn6-xM-Ez1"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="3" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="28"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWM-FG-nyb">
+                                <rect key="frame" x="300" y="614" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="0rL-Wr-8DI"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="CBf-zz-R54"/>
+                                    <constraint firstAttribute="width" constant="80" id="UoU-mF-aeO"/>
+                                    <constraint firstAttribute="height" constant="80" id="p5b-NK-xEf"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="+" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="38"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIc-ic-lKY">
+                                <rect key="frame" x="15" y="709" width="175" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="trI-2Y-AXQ"/>
+                                    <constraint firstAttribute="width" constant="175" id="zd8-XQ-4WJ"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="0   ">
+                                            <attributes>
+                                                <font key="NSFont" size="28" name="AppleColorEmoji"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zia-B5-K78">
+                                <rect key="frame" x="205" y="709" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="B58-ub-Zf0"/>
+                                    <constraint firstAttribute="width" constant="80" id="wSL-3u-CbV"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" red="0.1835333441" green="0.1835333441" blue="0.1835333441" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="." cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="50"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="237" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtO-Nq-eqx">
+                                <rect key="frame" x="300" y="709" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="BOG-EL-3xv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="IGK-su-fn6"/>
+                                    <constraint firstAttribute="height" constant="80" id="j1N-rX-9b8"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="=" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="35"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="941" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9O-Qb-EZ4">
+                                <rect key="frame" x="248" y="238" width="124" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="68"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7qB-ee-bTa"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oy9-7a-4zg" firstAttribute="top" secondItem="D1w-cX-YEt" secondAttribute="bottom" constant="15" id="1W9-uv-peH"/>
+                            <constraint firstItem="88e-1w-FCU" firstAttribute="leading" secondItem="0BG-LW-5qK" secondAttribute="trailing" constant="1" id="2fq-K3-BDh"/>
+                            <constraint firstItem="D1w-cX-YEt" firstAttribute="leading" secondItem="UCa-Rg-fQx" secondAttribute="trailing" constant="15" id="3hi-GV-J07"/>
+                            <constraint firstItem="ArX-WR-jHr" firstAttribute="top" secondItem="BHf-N6-OKC" secondAttribute="top" constant="30" id="4TL-ah-9mI"/>
+                            <constraint firstItem="UCa-Rg-fQx" firstAttribute="top" secondItem="ffQ-pZ-aP3" secondAttribute="bottom" constant="15" id="4dv-nS-O8w"/>
+                            <constraint firstItem="fhs-JV-u7z" firstAttribute="leading" secondItem="slQ-BZ-ZbD" secondAttribute="trailing" constant="15" id="606-M4-vIT"/>
+                            <constraint firstItem="wkt-EQ-ZQx" firstAttribute="top" secondItem="UCa-Rg-fQx" secondAttribute="bottom" constant="15" id="72H-G5-fFc"/>
+                            <constraint firstItem="vZL-y1-eh5" firstAttribute="top" secondItem="Xna-y4-9C3" secondAttribute="bottom" constant="15" id="72i-4L-Lng"/>
+                            <constraint firstItem="ffQ-pZ-aP3" firstAttribute="leading" secondItem="edr-dm-uBX" secondAttribute="trailing" constant="15" id="8No-wZ-Ytm"/>
+                            <constraint firstItem="7qB-ee-bTa" firstAttribute="trailing" secondItem="D1w-cX-YEt" secondAttribute="trailing" constant="13" id="8dy-i0-LJc"/>
+                            <constraint firstItem="88e-1w-FCU" firstAttribute="top" secondItem="BHf-N6-OKC" secondAttribute="top" constant="30" id="Cqi-4S-KyY"/>
+                            <constraint firstItem="Zia-B5-K78" firstAttribute="top" secondItem="HeI-cy-Cvm" secondAttribute="bottom" constant="15" id="G9i-4d-4A7"/>
+                            <constraint firstItem="Xna-y4-9C3" firstAttribute="top" secondItem="iVa-3C-gea" secondAttribute="bottom" constant="15" id="LRR-v7-kRv"/>
+                            <constraint firstItem="wkt-EQ-ZQx" firstAttribute="leading" secondItem="kRh-th-KMA" secondAttribute="trailing" constant="15" id="LX0-dF-LlM"/>
+                            <constraint firstAttribute="trailing" secondItem="UJD-J8-cia" secondAttribute="trailing" constant="45" id="Ncr-yd-O1h"/>
+                            <constraint firstItem="kRh-th-KMA" firstAttribute="leading" secondItem="vZL-y1-eh5" secondAttribute="trailing" constant="15" id="PCA-mV-hxi"/>
+                            <constraint firstItem="ffQ-pZ-aP3" firstAttribute="top" secondItem="7qB-ee-bTa" secondAttribute="top" constant="270" id="Qlk-wY-ihE"/>
+                            <constraint firstItem="USs-xd-Ur1" firstAttribute="top" secondItem="edr-dm-uBX" secondAttribute="bottom" constant="15" id="Rbo-qe-qNr"/>
+                            <constraint firstItem="TtO-Nq-eqx" firstAttribute="top" secondItem="KWM-FG-nyb" secondAttribute="bottom" constant="15" id="S21-Wg-3bF"/>
+                            <constraint firstItem="HeI-cy-Cvm" firstAttribute="top" secondItem="wkt-EQ-ZQx" secondAttribute="bottom" constant="15" id="Ujn-dX-JP8"/>
+                            <constraint firstItem="UJD-J8-cia" firstAttribute="top" secondItem="BHf-N6-OKC" secondAttribute="top" constant="30" id="XRW-ux-Jg4"/>
+                            <constraint firstItem="Xna-y4-9C3" firstAttribute="leading" secondItem="7qB-ee-bTa" secondAttribute="leading" constant="15" id="XYm-vJ-Rvb"/>
+                            <constraint firstItem="7qB-ee-bTa" firstAttribute="trailing" secondItem="KWM-FG-nyb" secondAttribute="trailing" constant="13" id="YDC-fw-hTL"/>
+                            <constraint firstItem="slQ-BZ-ZbD" firstAttribute="top" secondItem="vZL-y1-eh5" secondAttribute="bottom" constant="15" id="Yel-w4-qMb"/>
+                            <constraint firstItem="KWM-FG-nyb" firstAttribute="top" secondItem="oy9-7a-4zg" secondAttribute="bottom" constant="15" id="cIO-Tc-NQy"/>
+                            <constraint firstItem="iVa-3C-gea" firstAttribute="leading" secondItem="7qB-ee-bTa" secondAttribute="leading" constant="15" id="cPZ-PJ-kug"/>
+                            <constraint firstItem="slQ-BZ-ZbD" firstAttribute="leading" secondItem="7qB-ee-bTa" secondAttribute="leading" constant="15" id="chd-8N-ZQa"/>
+                            <constraint firstItem="edr-dm-uBX" firstAttribute="leading" secondItem="iVa-3C-gea" secondAttribute="trailing" constant="15" id="dXQ-NS-Z3L"/>
+                            <constraint firstItem="KWM-FG-nyb" firstAttribute="leading" secondItem="HeI-cy-Cvm" secondAttribute="trailing" constant="15" id="eyd-8b-Qvs"/>
+                            <constraint firstItem="UI5-td-G6S" firstAttribute="leading" secondItem="ffQ-pZ-aP3" secondAttribute="trailing" constant="15" id="fmL-pO-sjV"/>
+                            <constraint firstItem="ArX-WR-jHr" firstAttribute="leading" secondItem="7qB-ee-bTa" secondAttribute="leading" constant="60" id="iP5-a7-bsf"/>
+                            <constraint firstItem="7qB-ee-bTa" firstAttribute="trailing" secondItem="oy9-7a-4zg" secondAttribute="trailing" constant="13" id="iR9-kC-XSu"/>
+                            <constraint firstItem="iVa-3C-gea" firstAttribute="top" secondItem="7qB-ee-bTa" secondAttribute="top" constant="270" id="jDK-oR-Fzo"/>
+                            <constraint firstItem="edr-dm-uBX" firstAttribute="top" secondItem="7qB-ee-bTa" secondAttribute="top" constant="270" id="kly-HU-Brv"/>
+                            <constraint firstItem="hIc-ic-lKY" firstAttribute="top" secondItem="slQ-BZ-ZbD" secondAttribute="bottom" constant="15" id="lAJ-Du-gQg"/>
+                            <constraint firstItem="USs-xd-Ur1" firstAttribute="leading" secondItem="Xna-y4-9C3" secondAttribute="trailing" constant="15" id="nEw-hV-rcY"/>
+                            <constraint firstItem="0BG-LW-5qK" firstAttribute="top" secondItem="BHf-N6-OKC" secondAttribute="top" constant="30" id="ory-1T-0pu"/>
+                            <constraint firstItem="kRh-th-KMA" firstAttribute="top" secondItem="USs-xd-Ur1" secondAttribute="bottom" constant="15" id="pp6-tR-lW9"/>
+                            <constraint firstItem="UJD-J8-cia" firstAttribute="leading" secondItem="88e-1w-FCU" secondAttribute="trailing" constant="1" id="qlR-2e-tFo"/>
+                            <constraint firstItem="Zia-B5-K78" firstAttribute="leading" secondItem="hIc-ic-lKY" secondAttribute="trailing" constant="15" id="rYW-D5-ehx"/>
+                            <constraint firstItem="edr-dm-uBX" firstAttribute="leading" secondItem="iVa-3C-gea" secondAttribute="trailing" constant="15" id="rqR-qa-Ni2"/>
+                            <constraint firstItem="HeI-cy-Cvm" firstAttribute="leading" secondItem="fhs-JV-u7z" secondAttribute="trailing" constant="15" id="ryw-Tc-I7H"/>
+                            <constraint firstItem="TtO-Nq-eqx" firstAttribute="leading" secondItem="Zia-B5-K78" secondAttribute="trailing" constant="15" id="t0c-7X-g0Z"/>
+                            <constraint firstItem="oy9-7a-4zg" firstAttribute="leading" secondItem="wkt-EQ-ZQx" secondAttribute="trailing" constant="15" id="uvG-Rj-Wkd"/>
+                            <constraint firstItem="oy9-7a-4zg" firstAttribute="leading" secondItem="wkt-EQ-ZQx" secondAttribute="trailing" constant="15" id="vyp-QC-P1N"/>
+                            <constraint firstItem="fhs-JV-u7z" firstAttribute="top" secondItem="kRh-th-KMA" secondAttribute="bottom" constant="15" id="way-jv-CeM"/>
+                            <constraint firstItem="D1w-cX-YEt" firstAttribute="top" secondItem="UI5-td-G6S" secondAttribute="bottom" constant="15" id="wbY-i0-Fhj"/>
+                            <constraint firstItem="hIc-ic-lKY" firstAttribute="leading" secondItem="7qB-ee-bTa" secondAttribute="leading" constant="15" id="xL3-mn-LDj"/>
+                            <constraint firstItem="UI5-td-G6S" firstAttribute="top" secondItem="7qB-ee-bTa" secondAttribute="top" constant="270" id="yZa-kK-tJZ"/>
+                            <constraint firstItem="KWM-FG-nyb" firstAttribute="leading" secondItem="HeI-cy-Cvm" secondAttribute="trailing" constant="15" id="z6R-k8-Dsp"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBF-VG-xiv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.95419847328243" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="battery.100" catalog="system" width="128" height="59"/>
+        <image name="cellularbars" catalog="system" width="128" height="79"/>
+        <image name="plus.forwardslash.minus" catalog="system" width="128" height="115"/>
+        <image name="wifi" catalog="system" width="128" height="90"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
