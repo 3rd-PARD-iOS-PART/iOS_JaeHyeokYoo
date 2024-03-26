@@ -103,19 +103,13 @@ let align2 = weekend(rawValue: 1)
 //area(argument: 7)
 
 let areaSq = area(argument: 10, argument: 5)
-let areaRa = area(argument: 7)
-
-print (areaSq)
-print (String(format: "%.2f", areaRa))
-
+let areaRa = area(argument: 7.0)
 
 func area(argument width: Int, argument length: Int) -> Int {
     return width * length
 }
-
-func area(argument radius: Int) -> Double{
-    let squ = radius^2
-    return 3.14 * Double(squ)
+func area(argument r: Double) -> Double{
+    return 3.14 * r * r
 }
 
 
@@ -137,7 +131,7 @@ func checkLoginStatus(argument login: Bool, argument userName: String?) {
     if  userName == nil {
         print("알 수 없는 사용자")
     }else if login == true {
-        print(userName as Any)
+        print(userName!)
     }else {
         print("로그인이 필요합니다.")
     }
@@ -157,7 +151,7 @@ func checkLogin(argument login: Bool, argument chaingtest: String?) {
             print("로그인이 필요합니다.")
             return
         }
-        print(userName as Any)
+        print(userName!)
         return
     }
     print("알 수 없는 사용자")
@@ -178,7 +172,7 @@ func checkStatus(argument login: Bool, argument userName: String?) {
         print("알 수 없는 사용자")
     }
     else if login == true {
-        print(userName as Any)
+        print(userName!)
     }else {
         print("로그인이 필요합니다.")
     }
