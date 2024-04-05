@@ -1,0 +1,40 @@
+//
+//  ThirdViewController.swift
+//  3st_hw_YooJaeHyeok
+//
+//  Created by 유재혁 on 4/1/24.
+//
+
+import UIKit
+
+
+class ThirdViewController: UIViewController{
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .black
+        setUI()
+    }
+    
+    func setUI(){
+        
+        let image: UIImageView = {
+            let image1 = UIImageView()
+            // systemImage의 크기를 조정하기 위해서는 symbolConfiguration을 지정해야 한다.
+            let imageSize = UIImage.SymbolConfiguration(pointSize: 50, weight: .light)
+            image1.translatesAutoresizingMaskIntoConstraints = false
+            image1.image = UIImage(systemName: "pawprint.fill", withConfiguration: imageSize)
+            image1.tintColor = .white
+            image1.contentMode = .scaleAspectFit
+            return image1
+        }()
+        
+        view.addSubview(image)
+        
+        
+        NSLayoutConstraint.activate([
+            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            image.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+    }
+}
+
