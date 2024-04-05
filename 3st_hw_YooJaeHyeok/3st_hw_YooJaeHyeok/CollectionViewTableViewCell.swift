@@ -24,7 +24,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     }()
     
     func getSectionNumber(number : Int) {
-        sectionNumber = number - 1
+        sectionNumber = number
     }
     
     
@@ -96,6 +96,6 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 100
+        return MockData.modeling[section].count
     }
 }
