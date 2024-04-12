@@ -16,6 +16,13 @@
 		810B6D342BBDA7B30075D00E /* __1st_hw_YooJaeHyeokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D332BBDA7B30075D00E /* __1st_hw_YooJaeHyeokTests.swift */; };
 		810B6D3E2BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D3D2BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITests.swift */; };
 		810B6D402BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D3F2BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITestsLaunchTests.swift */; };
+		810B6D4D2BBDA8180075D00E /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D4C2BBDA8180075D00E /* MockData.swift */; };
+		810B6D4F2BBDA8300075D00E /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D4E2BBDA8300075D00E /* DemoCell.swift */; };
+		810B6D512BBDA8880075D00E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D502BBDA8880075D00E /* HomeViewController.swift */; };
+		810B6D532BBDA8A70075D00E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D522BBDA8A70075D00E /* SearchViewController.swift */; };
+		810B6D552BBDA8BF0075D00E /* ComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D542BBDA8BF0075D00E /* ComingViewController.swift */; };
+		810B6D572BBDA8D10075D00E /* DownViewContrloller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D562BBDA8D10075D00E /* DownViewContrloller.swift */; };
+		810B6D592BBDA8E10075D00E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B6D582BBDA8E10075D00E /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		810B6D392BBDA7B30075D00E /* 3.1st_hw_YooJaeHyeokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3.1st_hw_YooJaeHyeokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810B6D3D2BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __1st_hw_YooJaeHyeokUITests.swift; sourceTree = "<group>"; };
 		810B6D3F2BBDA7B30075D00E /* __1st_hw_YooJaeHyeokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __1st_hw_YooJaeHyeokUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		810B6D4C2BBDA8180075D00E /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		810B6D4E2BBDA8300075D00E /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		810B6D502BBDA8880075D00E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		810B6D522BBDA8A70075D00E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		810B6D542BBDA8BF0075D00E /* ComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingViewController.swift; sourceTree = "<group>"; };
+		810B6D562BBDA8D10075D00E /* DownViewContrloller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownViewContrloller.swift; sourceTree = "<group>"; };
+		810B6D582BBDA8E10075D00E /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				810B6D252BBDA7B30075D00E /* Assets.xcassets */,
 				810B6D272BBDA7B30075D00E /* LaunchScreen.storyboard */,
 				810B6D2A2BBDA7B30075D00E /* Info.plist */,
+				810B6D4C2BBDA8180075D00E /* MockData.swift */,
+				810B6D4E2BBDA8300075D00E /* DemoCell.swift */,
+				810B6D502BBDA8880075D00E /* HomeViewController.swift */,
+				810B6D522BBDA8A70075D00E /* SearchViewController.swift */,
+				810B6D542BBDA8BF0075D00E /* ComingViewController.swift */,
+				810B6D562BBDA8D10075D00E /* DownViewContrloller.swift */,
+				810B6D582BBDA8E10075D00E /* MoreViewController.swift */,
 			);
 			path = 3.1st_hw_YooJaeHyeok;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				810B6D212BBDA7B20075D00E /* ViewController.swift in Sources */,
+				810B6D552BBDA8BF0075D00E /* ComingViewController.swift in Sources */,
+				810B6D572BBDA8D10075D00E /* DownViewContrloller.swift in Sources */,
+				810B6D532BBDA8A70075D00E /* SearchViewController.swift in Sources */,
+				810B6D4D2BBDA8180075D00E /* MockData.swift in Sources */,
+				810B6D592BBDA8E10075D00E /* MoreViewController.swift in Sources */,
 				810B6D1D2BBDA7B20075D00E /* AppDelegate.swift in Sources */,
 				810B6D1F2BBDA7B20075D00E /* SceneDelegate.swift in Sources */,
+				810B6D4F2BBDA8300075D00E /* DemoCell.swift in Sources */,
+				810B6D512BBDA8880075D00E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
