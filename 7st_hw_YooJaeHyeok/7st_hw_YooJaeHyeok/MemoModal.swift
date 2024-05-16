@@ -1,10 +1,10 @@
 //
-//  MemoModel.swift
-//  6st_hw_YooJaeHyeok
+//  MemoModal.swift
+//  7st_hw_YooJaeHyeok
 //
-//  Created by 유재혁 on 5/8/24.
+//  Created by 유재혁 on 5/16/24.
 //
-// 이거 모름
+
 import Foundation
 
     //json쓰려면 필요하니까 decodable(출력), encodable(입력)

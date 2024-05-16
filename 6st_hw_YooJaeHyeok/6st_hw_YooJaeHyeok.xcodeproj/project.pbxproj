@@ -20,6 +20,8 @@
 		8170B30E2BEB46F700B98692 /* MemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170B30D2BEB46F700B98692 /* MemoModel.swift */; };
 		8170B3142BECAD7700B98692 /* MemberTableViewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170B3132BECAD7700B98692 /* MemberTableViewCellView.swift */; };
 		8170B3162BEDFC4E00B98692 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170B3152BEDFC4D00B98692 /* DetailViewController.swift */; };
+		81CD8E4A2BF5C37500D4F0A6 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD8E492BF5C37500D4F0A6 /* CollectionView.swift */; };
+		81FF22562BEF48CD008D9BFC /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF22552BEF48CD008D9BFC /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		8170B30D2BEB46F700B98692 /* MemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoModel.swift; sourceTree = "<group>"; };
 		8170B3132BECAD7700B98692 /* MemberTableViewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCellView.swift; sourceTree = "<group>"; };
 		8170B3152BEDFC4D00B98692 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		81CD8E492BF5C37500D4F0A6 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		81FF22552BEF48CD008D9BFC /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +116,14 @@
 				8170B2DD2BEA8CC200B98692 /* ViewController.swift */,
 				8170B3092BEAA55700B98692 /* ModalViewController.swift */,
 				8170B3152BEDFC4D00B98692 /* DetailViewController.swift */,
+				81FF22552BEF48CD008D9BFC /* EditViewController.swift */,
 				8170B2DF2BEA8CC200B98692 /* Main.storyboard */,
 				8170B2E22BEA8CC300B98692 /* Assets.xcassets */,
 				8170B2E42BEA8CC300B98692 /* LaunchScreen.storyboard */,
 				8170B2E72BEA8CC300B98692 /* Info.plist */,
 				8170B30D2BEB46F700B98692 /* MemoModel.swift */,
 				8170B3132BECAD7700B98692 /* MemberTableViewCellView.swift */,
+				81CD8E492BF5C37500D4F0A6 /* CollectionView.swift */,
 			);
 			path = 6st_hw_YooJaeHyeok;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CD8E4A2BF5C37500D4F0A6 /* CollectionView.swift in Sources */,
+				81FF22562BEF48CD008D9BFC /* EditViewController.swift in Sources */,
 				8170B30A2BEAA55700B98692 /* ModalViewController.swift in Sources */,
 				8170B2DE2BEA8CC200B98692 /* ViewController.swift in Sources */,
 				8170B2DA2BEA8CC200B98692 /* AppDelegate.swift in Sources */,

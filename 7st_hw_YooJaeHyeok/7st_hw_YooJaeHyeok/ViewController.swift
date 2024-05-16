@@ -1,9 +1,10 @@
 //
 //  ViewController.swift
-//  6st_hw_YooJaeHyeok
+//  7st_hw_YooJaeHyeok
 //
-//  Created by 유재혁 on 5/8/24.
+//  Created by 유재혁 on 5/16/24.
 //
+
 
 import UIKit
 
