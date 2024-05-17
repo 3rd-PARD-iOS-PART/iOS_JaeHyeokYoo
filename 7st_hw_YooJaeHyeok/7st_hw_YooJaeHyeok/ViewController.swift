@@ -57,7 +57,7 @@ class ViewController: UIViewController{
         // labelview의 외부 데코레이션
         label.layer.cornerRadius = 20
         label.layer.borderWidth = 1
-        label.layer.borderColor = UIColor.black.cgColor
+        label.layer.borderColor = UIColor.gray.cgColor
         return label
     }()
     
@@ -71,7 +71,7 @@ class ViewController: UIViewController{
         // labelview의 외부 데코레이션
         label.layer.cornerRadius = 20
         label.layer.borderWidth = 1
-        label.layer.borderColor = UIColor.black.cgColor
+        label.layer.borderColor = UIColor.gray.cgColor
         return label
     }()
     
@@ -85,7 +85,7 @@ class ViewController: UIViewController{
         // labelview의 외부 데코레이션
         label.layer.cornerRadius = 20
         label.layer.borderWidth = 1
-        label.layer.borderColor = UIColor.black.cgColor
+        label.layer.borderColor = UIColor.gray.cgColor
         return label
     }()
     
@@ -99,7 +99,7 @@ class ViewController: UIViewController{
         // labelview의 외부 데코레이션
         label.layer.cornerRadius = 20
         label.layer.borderWidth = 1
-        label.layer.borderColor = UIColor.black.cgColor
+        label.layer.borderColor = UIColor.gray.cgColor
         return label
     }()
     
@@ -194,7 +194,7 @@ class ViewController: UIViewController{
         }
     }
     
-    //api로 데이터값 가져오는 부분
+    //ios 데이터값 가져오는 부분
     func fetchIos() {
         if let url = URL(string: "https://pard-host.onrender.com/pard?part=iOS") {
             let session = URLSession(configuration: .default)
@@ -223,7 +223,7 @@ class ViewController: UIViewController{
         }
     }
     
-    //api로 데이터값 가져오는 부분
+    //server값 가져오는 부분
     func fetchserver() {
         if let url = URL(string: "https://pard-host.onrender.com/pard?part=server") {
             let session = URLSession(configuration: .default)
@@ -252,7 +252,7 @@ class ViewController: UIViewController{
         }
     }
     
-    //api로 데이터값 가져오는 부분
+    //web값 가져오는 부분
     func fetchweb() {
         if let url = URL(string: "https://pard-host.onrender.com/pard?part=web") {
             let session = URLSession(configuration: .default)
@@ -294,21 +294,37 @@ class ViewController: UIViewController{
     
     @objc func tapAll() {
         print("all 버튼 tapped!")
+        all.backgroundColor = .gray
+        ios.backgroundColor = .white
+        web.backgroundColor = .white
+        server.backgroundColor = .white
         fetchMembers()
     }
     
     @objc func tapIos() {
         print("ios 버튼 tapped!")
+        all.backgroundColor = .white
+        ios.backgroundColor = .gray
+        web.backgroundColor = .white
+        server.backgroundColor = .white
         fetchIos()
     }
     
     @objc func tapServer() {
         print("server 버튼 tapped!")
+        all.backgroundColor = .white
+        ios.backgroundColor = .white
+        web.backgroundColor = .white
+        server.backgroundColor = .gray
         fetchserver()
     }
     
     @objc func tapWeb() {
         print("web 버튼 tapped!")
+        all.backgroundColor = .white
+        ios.backgroundColor = .white
+        web.backgroundColor = .gray
+        server.backgroundColor = .white
         fetchweb()
     }
     
