@@ -1,3 +1,4 @@
+<p align="center">
 <img src="https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/e9e4b3b4-9da2-4d3b-bbc0-06b983509b52.JPG" height="100px" width="300px">
 
 
