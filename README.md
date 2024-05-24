@@ -1,4 +1,5 @@
-<img src="[https://user-images.githubusercontent.com/73155839/108593450-0c72ed80-73b7-11eb-8ad3-6ca54e6bbf2a.png](https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/b3150b3d-80c4-4b5c-b790-4afc383e8d04)" width="20%" height="30%">
+<img src="https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/e9e4b3b4-9da2-4d3b-bbc0-06b983509b52.JPG" height="100px" width="300px">
+
 
 # 프로젝트 이름: 노빠꾸 챌린지
 ## 프로젝트 소개
