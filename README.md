@@ -11,19 +11,38 @@
 <br/><br/><br/>
 
 ## 핵심기능 소개
-+ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}Login 기능}}$</p>
   ㅇ랑ㄹ널ㄴ아렁얼ㅇㄹ
 
 <br/>
   
-+ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}랭킹 기능}}$</p>
   ㅇㄴㅇㄴㅇㅇㄴㄴㅇㄴㄴㅇㅇㄴ
 
 <br/>
 
-+ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}게시판 기능}}$</p>
   dsfsdfsdfsdfsdffssdfsdfsdfdfds
+  
+<br/>
 
++ <p>$\bf{\large{\color{#6580DD}포스트 기능}}$</p>
+  ㅇ랑ㄹ널ㄴ아렁얼ㅇㄹ
+
+<br/>
+  
++ <p>$\bf{\large{\color{#6580DD}이미지 촬영 기능}}$</p>
+  ㅇㄴㅇㄴㅇㅇㄴㄴㅇㄴㄴㅇㅇㄴ
+
+<br/>
+
++ <p>$\bf{\large{\color{#6580DD}반응버튼 기능}}$</p>
+  dsfsdfsdfsdfsdffssdfsdfsdfdfds
+  
+<br/>
+
++ <p>$\bf{\large{\color{#6580DD}나의 페이지 기능}}$</p>
+  dsfsdfsdfsdfsdffssdfsdfsdfdfds
 
 <br/><br/><br/>
 
