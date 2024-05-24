@@ -1,3 +1,6 @@
+![노빠꾸 챌린지 로고 1](https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/b0451276-c1dc-4faf-a14b-4049c0f1e346)
+
+
 # 프로젝트 이름: 노빠꾸 챌린지
 ## 프로젝트 소개
 청춘들이여, 포기할바에는 빠꾸없이 하나해보자.
