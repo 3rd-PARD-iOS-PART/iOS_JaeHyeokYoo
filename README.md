@@ -11,11 +11,11 @@
 <br/><br/><br/>
 
 ## 핵심기능 소개
-<p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
 ㅇ랑ㄹ널ㄴ아렁얼ㅇㄹ
-<p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
 ㅇㄴㅇㄴㅇㅇㄴㄴㅇㄴㄴㅇㅇㄴ
-<p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
++ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
 
 
 
