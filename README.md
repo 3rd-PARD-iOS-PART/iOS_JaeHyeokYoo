@@ -1,4 +1,5 @@
-![노빠꾸 챌린지 로고 1](https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/b0451276-c1dc-4faf-a14b-4049c0f1e346)
+![노빠꾸 챌린지 로고 1-2](https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/b3150b3d-80c4-4b5c-b790-4afc383e8d04)
+
 
 
 # 프로젝트 이름: 노빠꾸 챌린지
