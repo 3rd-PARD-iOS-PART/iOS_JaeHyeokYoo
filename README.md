@@ -13,10 +13,15 @@
 ## 핵심기능 소개
 + <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
   ㅇ랑ㄹ널ㄴ아렁얼ㅇㄹ
+
+<br/>
+  
 + <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
   ㅇㄴㅇㄴㅇㅇㄴㄴㅇㄴㄴㅇㅇㄴ
-+ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
 
+<br/>
++ <p>$\bf{\large{\color{#6580DD}ㅇㅇ기능}}$</p>
+  dsfsdfsdfsdfsdffssdfsdfsdfdfds
 
 
 <br/><br/><br/><br/><br/><br/>
