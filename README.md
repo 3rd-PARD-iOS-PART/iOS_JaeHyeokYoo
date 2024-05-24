@@ -2,7 +2,8 @@
 <img src="https://github.com/3rd-PARD-iOS-PART/iOS_JaeHyeokYoo/assets/103707692/e9e4b3b4-9da2-4d3b-bbc0-06b983509b52.JPG" height="300px" width="300px">
 
 
-# 프로젝트 이름: 노빠꾸 챌린지
+# 프로젝트 이름
+노빠꾸 챌린지
 ## 프로젝트 소개
 청춘들이여, 포기할바에는 빠꾸없이 하나해보자.
 <br/><br/><br/>
